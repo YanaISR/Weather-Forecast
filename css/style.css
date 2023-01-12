@@ -1,0 +1,158 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    transition: all .1s ease-in;
+}
+
+ body {
+   font-family: "Lucida Sans Unicode" ,  sans-serif;
+   font-size: 22px;
+   line-height: 1.17;
+   color: white;
+   background:  #3399CC;
+  
+   max-width: 100%;
+   min-height: 100vh;
+   border: 25px solid #2B81AC;
+   margin: 0; 
+}
+
+.main {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.title {
+    font-size: 21px;
+    font-weight: normal;
+    margin-bottom: 35px;
+}
+
+.title i {
+    font-size: 24px;
+}
+
+
+/* styling list items */
+
+.list {
+    font-size: 0;
+    max-width: 1170px;
+    min-width: 480px;
+    min-height: 555px;
+    margin-bottom: 35px;
+    border: 2px solid white;
+}
+
+.list__item {
+    display: inline-block;
+    list-style: none;
+    border: 2px solid white;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+
+    opacity: 70%;
+}
+
+
+/* styling items inside list__items */
+
+.list__item .temperature {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    opacity: 0.7;
+    margin-bottom: 26px;
+}
+
+.list__item > p {
+    margin: 26px 0 5px;
+}
+
+.temperature i {
+    font-size: 42px;
+}
+
+.list__item > p i {
+    font-size: 42px;
+   
+}
+
+.list__item > p:last-child {
+    opacity: 70%;
+}
+
+.list__item:hover {
+    
+    opacity: 100%;
+    cursor: url("../assets/img/cursor.png"), pointer;
+}
+
+
+
+/* sizing each li */
+
+.lisbon, .sf {
+    width: 50%;
+}
+
+.paris, .belgrade, .venice, .ta, .cair, .ny, .nd,.tokyo  {
+    width: 25%;
+}
+
+.sydney {
+    width: 100%;
+    background: #666699;
+}
+
+
+/* style each li */
+
+.paris {
+    background: #33CCCC;
+}
+
+.belgrade {
+    background: #996699;
+}
+
+.venice {
+    background: #C24747;
+}
+
+.ta {
+    background: #E2674A;
+}
+
+.cair {
+    background: #FFCC66;
+}
+
+.ny {
+    background: #99CC99;
+}
+
+.nd {
+    background: #669999;
+}
+
+.sf {
+    background: #CC6699;
+}
+
+.tokyo {
+    background: #339966;
+}
+
+
+
+.message {
+    font-size: 16px;
+}
+
